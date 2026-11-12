@@ -1,0 +1,7 @@
+# This repository contains documentation only.
+*.exe
+*.dll
+*.onnx
+*.sav
+*.sqlite3
+*.log

@@ -1,0 +1,22 @@
+name: Ошибка
+labels: [bug]
+description: Воспроизведение, версия и ожидаемое поведение
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Версии приложения, игры и ОС
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      description: Что нажали, что ожидали и что произошло?
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Дополнительная информация
+      description: Скриншот, ошибка, список модов. Удалите личные данные перед публикацией.
